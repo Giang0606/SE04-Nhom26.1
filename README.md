@@ -14,7 +14,7 @@ Clone code tại địa chỉ https://github.com/Giang0606/SE04-Nhom26.1.git và
 Mở app tại địa chỉ http://localhost:3000. Trang web sẽ tự động load lại khi thay đổi code.
 
 ## Nội dung các file và thư mục các thành viên được phép chỉnh sửa
-- `/src/components`: thêm các file `.js` vào thư mục này để render nội dung các trang
-- `/src/stylesheet`: thêm các file `.css` vào thư mục này để thêm các thuộc tính stylesheet cho các component.
-- `/src/App.js`: dùng để thêm các router và import các component từ các file `.js` trong thư mục ./components
-- `/public/image`: dùng để chứa các file hình ảnh  
+- `client/src/components`: thêm các file `.js` vào thư mục này để render nội dung các trang
+- `client/src/stylesheet`: thêm các file `.css` vào thư mục này để thêm các thuộc tính stylesheet cho các component.
+- `client/src/App.js`: dùng để thêm các router và import các component từ các file `.js` trong thư mục ./components
+- `client/public/image`: dùng để chứa các file hình ảnh  
