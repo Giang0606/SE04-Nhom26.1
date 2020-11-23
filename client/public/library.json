@@ -1,0 +1,22 @@
+[
+    {
+      "id" : 1,
+      "img" : "../image/doremon1.png",
+      "header" : "Lesson 1",
+      "content" : "Study at your own pace with our self-study online courses, which offer top-quality learner support and an online community."
+    },
+
+    {
+        "id" : 2,
+        "img" :"../image/doremon2.png",
+        "header" : "Lession 2",
+        "content": "Join millions of learners worldwide and discover English learning online – whatever your age, ability or ambition."
+    },
+
+    {
+        "id" : 3,
+        "img" : "../image/doremon3.png",
+        "header" : "Lession 3",
+        "content": "A personal tutoring service offering 30-minute one-to-one online English sessions with British Council approved tutors."
+    }
+]
