@@ -1,0 +1,26 @@
+.item-news-common {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.item-news {
+    width: 50%;
+    float: left;
+}
+
+.item-news .title-news {
+    font-family: serif;
+    -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.item-news-common .thumb-art {
+    width: 150px;
+    margin-right: 20px;
+}
+.thumb-art{
+    position: relative;
+}
+.item-news-common .description {
+    font-size: 14px;
+    line-height: 140%;
+}
