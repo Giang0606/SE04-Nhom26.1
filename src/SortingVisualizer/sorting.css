@@ -1,0 +1,16 @@
+.array-container {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.array-bar {
+  width: 30px;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.array-item {
+  margin-bottom: .35em;
+}
