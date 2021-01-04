@@ -18,3 +18,17 @@ Mở app tại địa chỉ http://localhost:3000. Trang web sẽ tự động l
 - `client/src/stylesheet`: thêm các file `.css` vào thư mục này để thêm các thuộc tính stylesheet cho các component.
 - `client/src/App.js`: dùng để thêm các router và import các component từ các file `.js` trong thư mục ./components
 - `client/public/image`: dùng để chứa các file hình ảnh  
+1
+## 1. Ý tưởng thiết kế
+## 2. Công nghệ và công cụ sử dụng
+- Ngôn ngữ sử dụng : Reactjs 
+- Công cụ : Visual Studio Code
+## 3. Phân công công việc
+- Giang: + Giao diện Đăng kí/ đăng nhập trang web
+         + Chatroom
+- Thúy:  + Thiết kế trang ngữ pháp
+         + Tìm hiểu merge sort, quick sort
+- Vang:  + Thiết kế trang từ vựng
+         + Tìm hiểu bubble sort
+- Đông:  + Thiết kế trang chủ và trang lí thuyết
+         + Mô phỏng 3 thuật toán merge, bubble, quick sort
