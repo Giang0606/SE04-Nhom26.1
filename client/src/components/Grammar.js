@@ -109,6 +109,7 @@ export default function Grammar() {
 
 	const handleAnswerOptionClick = (isCorrect) => {
 		if (isCorrect) {
+			
 			setScore(score + 1);
 		}
 
@@ -120,8 +121,7 @@ export default function Grammar() {
 		}
 	};
 	return (
-        <body className='flex justify-center items-center h-screen'>
-		<div className='app'>
+		<div className='quiz'>
 			{showScore ? (
 				<div className='score-section'>
 					You scored {score} out of {questions.length}
@@ -136,12 +136,11 @@ export default function Grammar() {
 					</div>
 					<div className='answer-section'>
 						{questions[currentQuestion].answerOptions.map((answerOption) => (
-							<button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+							<button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText }</button>
 						))}
 					</div>
 				</>
 			)}
 		</div>
-        </body>
 	);
 }
